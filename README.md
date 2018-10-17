@@ -29,7 +29,7 @@ This assignment lets you practise a bit more with the difference between referen
 
 6. Call the function `change_integers` and then again call `print_integers` at the end of the `main` function. Which values are changed, which are not? Why?
 
-7. Describe the five scenarios which can occur when declaring and using variables (declare a value, declare a pointer, get the value, get the value of a pointer, get the pointer of a value). Make a table as follows (two scenarios are already filled out for you to give you a more precise picture what to be done here):
+7. Describe the five scenarios which can occur when declaring and using variables (declare a value, declare a pointer, get the value, get the value of a pointer, get the pointer of a value). Make a table as follows (two scenarios are already filled out for you to give you a more precise picture what to be done here). Write this table by hand, scan it (or take a photo) and add it to your repository. The name of the file shall be `scenarios.jpg` or `scenarios.png`.
 
 | Declaration/Usage | Scenario | Syntax Example | Description of the Example
 | --- | --- |--- | --- |
