@@ -14,20 +14,20 @@ This assignment lets you practise a bit more with the difference between referen
    - an integer variable `int_value`
    - a pointer to an integer `int_pointer`
 
-3. Assign some values to the variables. Take care how to assign a value to the pointer. What is possible there?
+3. Assign some values to the variables. Take care how to assign a value to the pointer. What is possible there? Describe this briefly in a comment right after this line of code.
 
 2. Define a function `print_integers` which accepts the following paramters
    - an integer variable `int_value`
    - a pointer to an integer `int_pointer`
    
-   The function shall print both parameters in the following form
+   The function shall print *the values* of both parameters in the following form
    `Got an integer value <x> and an address to an integer with value <y>` where `<x>` and `<y>` shall be replaced by the actual values of the parameters passed.
    
-4. Call the function `print_integers` in the `main` function.
+4. Call the function `print_integers` in the `main` function and test your implementation.
 
 5. Define a function `change_integers` which accepts the same parameters as `print_integers`. In the function body the values of the two parameters shall be changed to some different values.
 
-6. Call the function `change_integers` and then again call `print_integers` at the end of the `main` function. Which values are changed, which are not? Why?
+6. Call the function `change_integers` and then again call `print_integers` at the end of the `main` function. Which values are changed, which are not? Why? Describe this briefly in a comment right after the call of the functions.
 
 7. Describe the five scenarios which can occur when declaring and using variables (declare a value, declare a pointer, get the value, get the value of a pointer, get the pointer of a value). Make a table as follows (two scenarios are already filled out for you to give you a more precise picture what to be done here). Write this table by hand, scan it (or take a photo) and add it to your repository. The name of the file shall be `scenarios.jpg` or `scenarios.png`.
 
