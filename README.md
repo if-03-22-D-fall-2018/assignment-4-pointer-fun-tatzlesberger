@@ -58,4 +58,4 @@ All coding assignments will get checked. Most common reasons that your assignmen
 ## Things to Learn
 - Repeat using primitive data types, like integer, float/doubles
 - Repeat implementing functions
-
+- Repeat pointer handling on primitive data types
