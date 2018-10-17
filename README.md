@@ -28,7 +28,16 @@ This assignment lets you practise a bit more with the difference between referen
 5. Define a function `change_integers` which accepts the same parameters as `print_integers`. In the function body the values of the two parameters shall be changed to some different values.
 
 6. Call the function `change_integers` and then again call `print_integers` at the end of the `main` function. Which values are changed, which are not? Why?
-   
+
+7. Describe the five scenarios which can occur when declaring and using variables (declare a value, declare a pointer, get the value, get the value of a pointer, get the pointer of a value). Make a table as follows (two scenarios are already filled out for you to give you a more precise picture what to be done here):
+
+| Declaration/Usage | Scenario | Syntax Example | Description of the Example
+| --- | --- |--- | --- |
+| Declaration | Declaration of a value | `int x` | A variable of type `int` is declared. This variable can hold an integer value |
+| Declaration | | | |
+| Usage | Using a value | `foo(x)` | The function `foo()` is called and the value of a variable `x` is passed to it |
+| Usage | | | |
+| Usage | | | |
 
 ## Hints
 - Take care to keep the work loop "Implement a little", "Test a little" to avoid the 100 lines of error mess.
