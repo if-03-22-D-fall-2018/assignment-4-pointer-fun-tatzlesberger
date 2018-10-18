@@ -13,9 +13,15 @@
 
 #include <stdio.h>
 
-void print_integers(int int_pointer){
-  printf("%d\n",int_pointer );
+void print_integers(int int_pointer, int int_value){
+  printf("Got an integer %d and an address to an integer with value %d\n",int_value, int_pointer );
 }
+
+void change_integers(int* int_pointer, int int_value){
+  int_value = 911;
+  int_pointer = &int_value;
+}
+
 
 int main(int argc, char const *argv[]) {
 
@@ -26,7 +32,13 @@ int main(int argc, char const *argv[]) {
 
   int_pointer = &int_value;
 
-  print_integers(*int_pointer);
+  print_integers(*int_pointer, int_value);
+
+  change_integers(int_pointer, int_value);
+
+  printf("New Variable\n" );
+
+  print_integers(*int_pointer, int_value);
 
   return 0;
 }
