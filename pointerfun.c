@@ -19,7 +19,8 @@ void print_integers(int int_pointer, int int_value){
 
 void change_integers(int* int_pointer, int int_value){
   int_value = 911;
-  int_pointer = &int_value;
+  int_pointer = &int_value*
+//The variable get's changed but it can't give it back
 }
 
 
@@ -31,6 +32,9 @@ int main(int argc, char const *argv[]) {
   int_value = 257;
 
   int_pointer = &int_value;
+
+  //variables can get a value but if you add a number to an address
+  //there will be some problems
 
   print_integers(*int_pointer, int_value);
 
